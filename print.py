@@ -21,7 +21,7 @@ def print_excel(target_file_path, output_path):
 
 try:
     # 第1引数に開く既存エクセルの絶対パス、第2引数にPDFをエクスポートする絶対パスを指定する
-    print_excel("/Users/tenhou/Desktop/test.xlsx", "/Users/tenhou/Desktop/output.pdf")
+    print_excel("C:/Users/fromh/GitHub/automaticallyExcell/test.xlsx", "C:/Users/fromh/GitHub/automaticallyExcell/test.pdf")
     print("completed!")
 except:
     print('****** Exception ******')
